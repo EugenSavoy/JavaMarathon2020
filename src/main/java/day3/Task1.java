@@ -14,7 +14,6 @@ public class Task1 {
                 sc.close();
                 break;
             }
-
             switch (city) {
                 case "Москва":
                 case "Владивосток":

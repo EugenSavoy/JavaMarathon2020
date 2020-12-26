@@ -15,9 +15,7 @@ public class Task3 {
                 System.out.println("Деление на 0");
                 continue;
             }
-
             System.out.println(divident/divider);
-
         }
         sc.close();
     }
