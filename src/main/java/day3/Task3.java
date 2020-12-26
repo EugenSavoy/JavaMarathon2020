@@ -6,7 +6,7 @@ public class Task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i <5; i++) {
+        for (int i = 0; i < 5; i++) {
 
             double divident = sc.nextDouble();
             double divider = sc.nextDouble();
