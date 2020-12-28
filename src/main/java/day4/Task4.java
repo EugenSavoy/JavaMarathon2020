@@ -12,18 +12,18 @@ public class Task4 {
             numbers[i] = random.nextInt(10000);
         }
 
-        for(int i=0; i<numbers.length-2; i++){
-            int currentSum = numbers[i] + numbers[i+1]+numbers[i+2];
-            if(currentSum > maxSum) {
+        for (int i = 0; i < numbers.length - 2; i++) {
+            int currentSum = numbers[i] + numbers[i + 1] + numbers[i + 2];
+            if (currentSum > maxSum) {
                 maxSum = currentSum;
                 index = i;
             }
         }
 
-        if(index >= 0){
+        if (index >= 0) {
             System.out.println(maxSum);
             System.out.println(index);
-        }else{
+        } else {
             System.out.println("not found");
         }
 

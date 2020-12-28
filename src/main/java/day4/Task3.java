@@ -1,6 +1,5 @@
 package day4;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class Task3 {
@@ -21,8 +20,8 @@ public class Task3 {
             for (int j = 0; j < matrix[i].length; j++) {
                 sum += matrix[i][j];
                 if (sum >= sum1) {
-                   sum1 = sum;
-                   maxIndex = i;
+                    sum1 = sum;
+                    maxIndex = i;
                 }
             }
 
