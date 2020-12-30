@@ -29,10 +29,10 @@ public class Teacher {
 
     public String evaluate(Student student) {
         Random random = new Random();
-        int score = random.nextInt((5-2)+1);
+        int score = random.nextInt((5 - 2) + 1);
         score += 2;
         String scoreS = "";
-        switch (score){
+        switch (score) {
             case 2:
                 scoreS = "Неудовлетворительно";
                 break;
@@ -48,9 +48,7 @@ public class Teacher {
             default:
                 break;
         }
-
-
-        return  String.format("Преподаватель %s оценил студента с именем %s по предмету %s на оценку %s.", this.name, student.getName(), this.lesson, scoreS);
+        return String.format("Преподаватель %s оценил студента с именем %s по предмету %s на оценку %s.", this.name, student.getName(), this.lesson, scoreS);
     }
 
 }
