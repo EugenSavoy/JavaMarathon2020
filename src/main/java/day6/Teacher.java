@@ -29,11 +29,10 @@ public class Teacher {
 
     public String evaluate(Student student) {
         Random random = new Random();
-        int score = random.nextInt(6);
-        String scoreS;
+        int score = random.nextInt((5-2)+1);
+        score += 2;
+        String scoreS = "";
         switch (score){
-            case 0:
-            case 1:
             case 2:
                 scoreS = "Неудовлетворительно";
                 break;
@@ -47,7 +46,7 @@ public class Teacher {
                 scoreS = "Отлично";
                 break;
             default:
-                scoreS = "Непонятно";
+                break;
         }
 
 
