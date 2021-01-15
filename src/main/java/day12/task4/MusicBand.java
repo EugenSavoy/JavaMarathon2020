@@ -34,7 +34,7 @@ public class MusicBand {
     @Override
     public String toString() {
         return "MusicBand{" +
-                "name='" + name + '\'' +
+                "Name='" + name + '\'' +
                 ", year=" + year +
                 '}';
     }

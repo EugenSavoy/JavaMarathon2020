@@ -12,6 +12,6 @@ public class MemberOfGroup {
 
     @Override
     public String toString() {
-        return "Name=" + name + '\'' + soname +'}';
+        return "Name = " + name + '\'' + soname +'}';
     }
 }
